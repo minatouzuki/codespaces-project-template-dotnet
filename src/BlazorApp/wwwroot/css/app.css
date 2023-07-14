@@ -4,7 +4,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
-html,
+html {
+   scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -51,6 +53,15 @@ h1 {
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
   margin: 0;
+}
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 @media screen and (max-width: 300px) {
