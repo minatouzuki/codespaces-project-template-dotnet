@@ -63,6 +63,7 @@
     	  "GitHub.copilot-labs",
         "ms-dotnettools.csharp",
     	  "ms-vscode.PowerShell",
+        "oderwat.indent-rainbow",
     	  "ms-vscode.vscode-node-azure-pack",
     	  "VisualStudioExptTeam.vscodeintellicode"
     	],
